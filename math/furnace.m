@@ -4,12 +4,12 @@ clc;
 %% bricks
 
 % brick IFB23
-%isolation_coeff = (0.14 + 0.19) / 2; % brick coeff at 800*C
-%width = 76 * 10^(-3); % brick width = 76mm
+isolation_coeff = (0.14 + 0.19) / 2; % brick coeff at 800*C
+width = 76 * 10^(-3); % brick width = 76mm
 
 % brick JM26
-isolation_coeff = 0.3; % brick coeff at 800*C
-width = 64 * 10^(-3); % brick width = 64mm
+%isolation_coeff = 0.3; % brick coeff at 800*C
+%width = 64 * 10^(-3); % brick width = 64mm
 
 %% temperature
 temp_diff = 800; % [Celcius]
@@ -23,7 +23,7 @@ total_wall_area = 2*(inside_a*inside_b) + 2*(inside_a*inside_height) + 2*(inside
 total_capacity = inside_a * inside_b * inside_height * 1000; % capacity in [Liters]
 
 %% wire
-power_wire = 1800 * 2; % in [Watts]
+power_wire = (2000); % in [Watts]
 
 %% furnace calc
 
