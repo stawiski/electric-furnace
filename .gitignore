@@ -1,2 +1,5 @@
 # ignore _private/ directory
 _private/
+
+# ignore Inventor stuff
+inventor/OldVersions/
