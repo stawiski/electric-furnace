@@ -1,0 +1,12 @@
+5L volume of flask (minus wax but that's negligible)
+
+(5L in cubic inch) = 305 in^3
+
+(5L in cubic inch)/20 = 15.26 (pounds of investment)
+
+15.26 (pounds of investment) = 6.92 kg
+
+Ratio:
+
+- 6.92 kg kerr cast powder
+- 6.92*0.38 = 2.63 L water
